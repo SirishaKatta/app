@@ -25,7 +25,7 @@ def prediction(std_data):
     prediction = Log.predict(std_data)
 
     if (prediction[0] == 0):
-        pred =  'Non Diabetic'
+        pred =  'Non-Diabetic'
     else:
         pred = 'Diabetic'
     return pred
