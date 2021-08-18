@@ -42,11 +42,11 @@ def main():
   st.markdown(html_temp, unsafe_allow_html=True)
   title = '<p style="font-family:Courier; color:#690d53; font-size: 26px;"><b>Want to know whether a person is diabetic or not?</b></p>'
   st.markdown(title, unsafe_allow_html=True)
-  title_container = st.beta_container()
-  col1, col2, col3 = st.beta_columns([1,6,1])
-  with title_container:
-    with col1:
-      st.image('image.jpg')
+  #title_container = st.beta_container()
+  #col1, col2, col3 = st.beta_columns([1,6,1])
+  #with title_container:
+    #with col1:
+  st.image('image.jpg')
       #st.write("")
      #with col2:
       
